@@ -1,0 +1,46 @@
+body, html {
+    zoom: 90%;
+    font-family: Arial, sans-serif;
+    background-color: #181818;
+    font-size: 25px;
+}
+  
+.heading {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content-box {  
+    margin-top: 5%;
+    background-color: #282828;
+    border: 3px solid white;
+    padding: 20px;
+}
+
+.img {
+    margin-top: -5%;
+    width: 150px;
+    height: 150px;
+}
+
+.text {
+    margin: 0;
+    margin-top: 10px;
+}
+  
+.hyperlink {
+    color: #ADD8E6;
+    text-decoration: none;
+    margin-left: 3px;
+}
+  
+.hyperlink:hover {
+    text-decoration: underline;
+    color: #698892;
+    transition: 0.2s;
+}
